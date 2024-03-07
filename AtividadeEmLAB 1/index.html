@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+     
+    
+
+  </style>
+</head>
+<body>
+
+    <form action="" method="get">
+      <fieldset>
+       <legend>Dados pessoais</legend>
+       <label for="txtnome">Nome :</label>
+       <input type="text" name="txtnome" maxlength="60" required autofocus placeholder="Digite seu nome" id="txtnome">
+       <br>
+       <label for="txtemail">E-mail :</label>
+       <input type="email" name="txtemail" maxlength="60" required  placeholder="Digite seu email" id="txtemail">
+       <br>
+       <label for="txtsenha">Senha :</label>
+       <input type="password" name="txtsenha" maxlength="60" required placeholder="Digite sua senha" id="txtsenha" >
+       <br>
+       <label for="txtEstadoCivil">Estado civil :</label>
+       <br>
+       <input type="radio" value="S" name="txtEstadoCivil" id="txtEstadoCivilSolteiro">Solteiro
+       <br>
+       <input type="radio" value="C" name="txtEstadoCivil"  id="txtEstadoCivilSolteiro">Casado
+       <br>
+       <input type="radio" value="V" name="txtEstadoCivil"  id="txtEstadoCivilSolteiro">Viúvo
+       <br>
+
+       <label for="filme">Filme :</label>
+       <br>
+       <input type="checkbox" value="T" name="filme" id="terror">Terror
+       <br>
+       <input type="checkbox" value="A" name="filme" id="aventura">Aventura
+       <br>
+       <input type="checkbox" value="acao" name="filme" id="acao">Acao
+       <br>
+
+       <label for="linguagem">Qual linguagem você prefere</label>
+       <select name="linguagem">
+        <option value="" hidden>Escolha uma opção</option>
+         <!-- <option value="">Escolha uma opção</option> -->
+        <option value="python">Python</option>
+         <option value="java">Java</option>
+         <option value="c-sharp">C#</option>
+         
+       </select>
+ <label for="mensagem">Digite sua mensagem</label><br>
+ <textarea name="" id="" cols="30" rows="5" placeholder="Digite sua mensagem"></textarea>
+ <button onclick="">Enviar</button>
+
+      </fieldset>
+    </form>
+    
+    
+</body>
+</html>

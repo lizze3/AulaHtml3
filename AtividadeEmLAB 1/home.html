@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Robervando</title>
+<style>
+    .checkup{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .texto1{
+        font-size: large;
+    }
+</style>
+</head>
+<body>
+    
+    <header>
+          <h1>Dr Robervando Paixão</h1>
+    </header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="curriculo.html">Currículo</a>
+      <a href="especialidades.html">Especialidades</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+       
+        <article>
+            <ul> <li class="checkup">A importância do Checkup:</li></ul>
+
+            <p class="texto1">A Cardiologia é uma especialização da área de medicina que cuida do 
+                diagnóstico e tratamento de todas as doenças relacionadas ao coração 
+                e ao sistema circulatório.
+                </p>
+
+            <img src="imagens/Imagem1.jpg" alt="imagem">
+
+        </article>
+        <article>
+            <ul> <li class="checkup">Sintomas de infarto:</li></ul>
+          <ul>
+              <li>Dor no peito ou mal-estar aos esforços que melhoram com repouso</li>
+              <li>Dor forte nos braços (principalmente esquerdo), pescoço, mandíbula, ombro ou costas.</li>
+              <li>Náuseas</li>
+              <li>Dificuldades para respirar</li>
+              <li>Transpiração fria e excessiva</li>
+              <li>Desmaios</li>
+
+          </ul>
+          <img src="imagens/Imagem2.jpg" alt="Imagem2">
+        </article>
+        <article>
+           <ul> <li class="checkup">A importância do Checkup:</li></ul>
+           <p>O check-up, tem como missão principal fazer uma avaliação médica 
+            através de exames específicos, que variam de acordo com a idade, 
+            sexo, histórico familiar do paciente. Ao ser detectado com 
+            antecedência, o problema, pode ser tratado e até extinto.</p>
+            <img src="imagens/Imagem3.jpg" alt="Imagem3">
+        </article>
+    </main>
+    <footer>
+        <strong>Dr. Robervando <span id="ano"></span> </strong>
+    </footer>
+    <Script>
+        
+            var currentDate = new Date();
+            var year = currentDate.getFullYear();
+
+            var yearElement = document.getElementById('ano');
+
+            yearElement.innerHTML = year;
+
+    </Script>
+</body>
+</html>
